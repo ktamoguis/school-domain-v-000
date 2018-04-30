@@ -20,7 +20,14 @@ class School
     end
   end
 
-  def grade
+  def grade(grade)
+    newarray=[]
+    @roster.each do |grades, students|
+      if grades == grade
+        newarray << students
+      end
+    end
+    newarray
   end
 
   def sort
