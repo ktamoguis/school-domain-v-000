@@ -21,7 +21,6 @@ class School
   end
 
   def grade(grade)
-    #newarray=[]
     @roster.each do |grades, students|
       if grades == grade
         return students
