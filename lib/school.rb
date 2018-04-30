@@ -31,6 +31,7 @@ class School
   def sort
     newroster = {}
     @roster.each do |grades,students|
+        newroster[grades] = []
         newroster[grades] << students.sort!
     end
 
