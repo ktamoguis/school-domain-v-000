@@ -21,13 +21,12 @@ class School
   end
 
   def grade(grade)
-    newarray=[]
+    #newarray=[]
     @roster.each do |grades, students|
       if grades == grade
-        newarray << students
+        return students
       end
     end
-    newarray
   end
 
   def sort
