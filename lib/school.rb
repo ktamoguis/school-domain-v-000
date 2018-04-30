@@ -31,8 +31,9 @@ class School
   def sort
     newroster = {}
     @roster.each do |grades,students|
-        
-    
+
+    end    
+
   end
 
 
